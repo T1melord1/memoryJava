@@ -9,6 +9,6 @@ public class Main {
         Integer cc = 150;
         Integer dd = 150;
 
-        System.out.println(cc == dd); //false
+        System.out.println(cc.equals(dd)); //true
     }
 }
