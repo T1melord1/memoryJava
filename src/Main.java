@@ -1,10 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Human vasya = new Human("Vasya",21);
-        Human vasyaCopy = new Human("Vasya",21);
+        int a = 15;
+        Integer aa = 15;
 
-
-
-        System.out.println(vasya.equals(vasyaCopy));
     }
 }
