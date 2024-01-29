@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        String s = "Test";
+        String s = "123";
+        Integer i = 123;
 
-        System.out.println(s.length());
-        System.out.println(s.charAt(1));
-
+        Integer test = Integer.parseInt(s);
+        System.out.println(test + 1);
     }
 }
