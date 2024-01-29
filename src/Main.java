@@ -1,12 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Human vasya = new Human("Vasya", 20);
-        Human petya = new Human(vasya.getName(), vasya.getAge());
+        Human vasya = new Human("Vasya",21);
+        Human vasyaCopy = new Human("Vasya",21);
 
-        vasya.setName("Timur");
 
-        System.out.println(vasya.getName());
-        System.out.println(petya.getName());
 
+        System.out.println(vasya.equals(vasyaCopy));
     }
 }
