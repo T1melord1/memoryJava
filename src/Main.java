@@ -1,14 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 15;
-        Integer aa = 15;
-        Integer bb = 15;
+        String s = "Test";
 
-        System.out.println(aa == bb); //true
+        System.out.println(s.length());
+        System.out.println(s.charAt(1));
 
-        Integer cc = 150;
-        Integer dd = 150;
-
-        System.out.println(cc.equals(dd)); //true
     }
 }
