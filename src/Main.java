@@ -3,7 +3,7 @@ public class Main {
         String s = "123";
         Integer i = 123;
 
-        Integer test = Integer.parseInt(s);
-        System.out.println(test + 1);
+        String test1 = String.valueOf(i);
+        System.out.println(test1 + 1);
     }
 }
